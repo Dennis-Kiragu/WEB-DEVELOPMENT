@@ -1,0 +1,24 @@
+body{
+    background: green;
+    text-align: center;
+}
+a{
+    text-decoration: none:
+}
+a:hover{
+    colour:blue;
+    background: #ff735b;
+    border-radius: 5px;
+    font-size: 30px;
+}
+hi{
+    background: blue;
+    border-radius: 3px;
+    outline-style: solid;
+    border-bottom: white solid 4px;
+
+}
+.two{
+    border-radius: 3px;
+    width: 100px;
+}

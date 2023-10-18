@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+   <style>
+       *{margin: 0;
+       padding:0;
+       box-sizing:border-box
+       }
+       body {
+           text-align: left;
+           justify-content: center;
+           background: rosybrown  ;
+       }
+       tr {
+           border-bottom: #75ff8a solid 1px;
+       }
+       th,td {
+           padding: 15px;
+           font-size: 24px;
+       }
+       th{background: green;
+           border-radius: 10px,0 0 0;
+       }
+       table th:first-child {
+           border-radius: 10px 0 0 0;
+       }
+       table th:last-child {
+           border-radius: 0 10px 0 0;
+       }
+       tr:nth-child(even){
+           background-color: greenyellow;
+           colour:#138D75
+       }
+       table{
+           border-collapse: collapse;
+           width: 100%;
+           border-bottom: #75ff8a solid 5px;
+       }
+       .table{
+           margin: 30px auto ;
+           width: 700px;
+       }
+
+   </style>
+</head>
+<table>
+ <thead>
+<tr>
+  <th>Ranks</th>
+  <th>Name</th>
+  <th>Point</th>
+  <th>team</th>
+</tr>
+</>
+
+
+<tbody>
+<tr>
+    <td>1</td>
+    <td>Domenic</td>
+    <td>88,110</td>
+     <td>Students</td>
+ </tr>
+
+  <tr>
+      <td>2</td>
+      <td>Sally</td>
+      <td>72,400</td>
+      <td>Students</td>
+  </tr>
+
+  <tr>
+       <td>3</td>
+       <td>Nick</td>
+       <td>53,000</td>
+       <td>dcode</td>
+  </tr>
+
+
+</tbody>
+</table>
+<body>
+
+</body>
+</html>

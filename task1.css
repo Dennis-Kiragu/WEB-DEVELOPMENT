@@ -1,0 +1,14 @@
+button {
+    a:hover{
+        color: green;
+        background: blue;
+        font-size: 15px;
+    }
+    p {
+        background: green;
+        color: red;
+        font-size: 24px;
+    }
+<p style="border:2px solid Tomato;">Hello World</p>
+<p style="border:2px solid DodgerBlue;">Hello World</p>
+<p style="border:2px solid Violet;">Hello World</p>
